@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663673077023/3HDpx7kWg292sNSePJSRYV",
+    "access_key_id": "ASIAZV3A2ECZAENZDILM",
+    "secret_access_key": "SOekYoiP7l9/PmR23UhyueWkHoMb/lIKF6U1HeXH",
+    "session_token": "IQoJb3JpZ2luX2VjEPv//////////wEaCXVzLWVhc3QtMSJIMEYCIQDDwIK29a4zBgLXsSwZUyH8/MiG1vWcsBxWvbZhYEqgKQIhAM3l+GqmmC+PVUp0Q2wglCquFb3eLLf18oPZA1nCye98Kv8DCMT//////////wEQBBoMNjY1Mzg2MDk4ODY2Igw66LV/R2aTBurKZUUq0wMRBopV2LGawVY3+opwP6pbc77jGMlMp6lZp27/3Nc/UF4tm4pnhnfebOrbTSVa1xNwba19Nt2nvVHNuTY3Dyj0uVp0aStxhhhlDQ83WAPK+45y9hGnvm35Ykp9GuhXXXarIPUVntEcgLWQAOZ/VY6m/wPlUGVmZVTt6ag1LcimG3Uo+/yP8sPLsyPZldYxMa0D56KLty6MoSKF3Gt5e65ZzVCOdPCbZnH8J63Bt0+f50mqJChzrUF5Dmg07Uo7/8Yj1LU6o44IuPkrialgUmnv6qWcsrzbaKrHVOW8nH4yQSj1o7MSbqi8bJ9xcO1Jj8/eSSA2GB/Nrp0ArxxuRVlpHDxRbv/Wd/oQvBQ4JWy9mKBsh4LjdZ1AbPdIgRn8Sk4lyeMsDt+PNzDL1AS1HKmoHy4JtsTDmp5op/8p3Q/eIFVtOYTDgAdgV8oz5nFT3xuFIzkkzA4tdM3BUHaLA7GeSEPxl3N+whXO6JlZ9TOZJgoz3FJKqL8Z+Fwu5Aq948sIUbZKKb5fabAPaxTmQ+wfh2e1X8gbZRD8FBLLLXqtePaPofLTJ6UB+UBO/wpo8FqCKZoglLkGldutNzJdfI1bQKrxeMPG1uukEZEBgTu4rPEDCzC+ua3QBjqcAT6GZ4A+aLgW9KzNaPsWCQ9THY+kWipAM2Oz4ZmjXcO/iIZOH9ykTrXqBpb1U6Q2sfBW6C/wougbuZoQGfmoeDIXuOkVCiF2wOoTy6VrfvETbIGSKbyPpzB6ip2Yq7XPzoFgtkbdpEgKMbYqf/j4GtpqEWJf/5wxQXZollB9BCHB3MfSM4z5J9u0dJWDJelu9z89OaU4tV7PkCBJzw==",
+    "expiration": "2026-05-19T06:38:54.000Z"
+  },
+  "name": "talal-tarabay",
+  "path": "/home/ubuntu/talal-tarabay",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "DBXv4BMsTVaoadWXhmJRf8",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "FjCw6nP5mAfaTbjDkbXF7t",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "InnVox",
+    "OWNER_OPEN_ID": "N9CZhR8hpxZWHFfezaiSpH",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "e6d51744-210f-49f3-a08c-a27935702f56",
+    "VITE_APP_ID": "3HDpx7kWg292sNSePJSRYV",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Talal Tarabay - Luxury Pre-Owned Cars",
+    "VITE_FRONTEND_FORGE_API_KEY": "5gUCkSuETH2nn9JQZK4FKU",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
