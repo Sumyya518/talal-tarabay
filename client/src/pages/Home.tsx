@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Heart, Phone, MapPin, Mail, Clock, Shield, Truck, Lock, Headphones, ChevronRight, Search, Menu, X } from "lucide-react";
+import { Heart, Phone, MapPin, Mail, Clock, Shield, Truck, Lock, Headphones, ChevronRight, Search, Menu, X, Instagram, Linkedin, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import { Link } from "wouter";
 
@@ -86,6 +86,15 @@ export default function Home() {
               <a href="#story" className="hover:text-accent transition-colors">OUR STORY</a>
               <a href="#services" className="hover:text-accent transition-colors">SERVICES</a>
               <a href="#contact" className="hover:text-accent transition-colors">CONTACT</a>
+              <a href="https://wa.me/97450848585" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" title="WhatsApp">
+                <MessageCircle size={20} />
+              </a>
+              <a href="https://www.instagram.com/talal_tarabay?igsh=NmluOWdsY3N5MGRk" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" title="Instagram">
+                <Instagram size={20} />
+              </a>
+              <a href="https://www.linkedin.com/in/talal-tarabay" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" title="LinkedIn">
+                <Linkedin size={20} />
+              </a>
             </nav>
 
             {/* CTA and Mobile Menu */}
@@ -109,6 +118,17 @@ export default function Home() {
               <a href="#story" className="hover:text-accent transition-colors">OUR STORY</a>
               <a href="#services" className="hover:text-accent transition-colors">SERVICES</a>
               <a href="#contact" className="hover:text-accent transition-colors">CONTACT</a>
+              <div className="flex gap-3 pt-2">
+                <a href="https://wa.me/97450848585" target="_blank" rel="noopener noreferrer" className="p-2 hover:bg-card rounded transition-colors" title="WhatsApp">
+                  <MessageCircle size={20} className="gold-accent" />
+                </a>
+                <a href="https://www.instagram.com/talal_tarabay?igsh=NmluOWdsY3N5MGRk" target="_blank" rel="noopener noreferrer" className="p-2 hover:bg-card rounded transition-colors" title="Instagram">
+                  <Instagram size={20} className="gold-accent" />
+                </a>
+                <a href="https://www.linkedin.com/in/talal-tarabay" target="_blank" rel="noopener noreferrer" className="p-2 hover:bg-card rounded transition-colors" title="LinkedIn">
+                  <Linkedin size={20} className="gold-accent" />
+                </a>
+              </div>
               <Button className="btn-luxury w-full mt-2">GET IN TOUCH</Button>
             </nav>
           )}
@@ -128,11 +148,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <a href="#" className="hover:text-accent transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <a href="https://www.instagram.com/talal_tarabay?igsh=NmluOWdsY3N5MGRk" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" title="Instagram">
+                <Instagram size={20} />
               </a>
-              <a href="#" className="hover:text-accent transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20v-7.21H5.5V9.25h2.79V7.16c0-2.76 1.693-4.26 4.15-4.26 1.18 0 2.2.088 2.495.127v2.89h-1.713c-1.344 0-1.605.638-1.605 1.573V9.25h3.21l-.418 3.54h-2.792V20"/></svg>
+              <a href="https://wa.me/97450848585" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" title="WhatsApp">
+                <MessageCircle size={20} />
               </a>
             </div>
           </div>
@@ -157,10 +177,14 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="btn-luxury flex items-center gap-2">
-                  BROWSE INVENTORY <ChevronRight size={18} />
-                </Button>
-                <Button className="btn-luxury-outline">CONTACT US</Button>
+                <a href="#inventory" className="inline-block">
+                  <Button className="btn-luxury flex items-center gap-2">
+                    BROWSE INVENTORY <ChevronRight size={18} />
+                  </Button>
+                </a>
+                <a href="https://wa.me/97450848585" target="_blank" rel="noopener noreferrer" className="inline-block">
+                  <Button className="btn-luxury-outline">CONTACT US</Button>
+                </a>
               </div>
 
               {/* Features */}
@@ -363,10 +387,21 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="flex gap-4 pt-4">
+                <a href="https://wa.me/97450848585" target="_blank" rel="noopener noreferrer" className="p-3 bg-card border border-border rounded-lg hover:border-accent hover:bg-accent/10 transition-all" title="WhatsApp">
+                  <MessageCircle size={24} className="gold-accent" />
+                </a>
+                <a href="https://www.instagram.com/talal_tarabay?igsh=NmluOWdsY3N5MGRk" target="_blank" rel="noopener noreferrer" className="p-3 bg-card border border-border rounded-lg hover:border-accent hover:bg-accent/10 transition-all" title="Instagram">
+                  <Instagram size={24} className="gold-accent" />
+                </a>
+                <a href="https://www.linkedin.com/in/talal-tarabay" target="_blank" rel="noopener noreferrer" className="p-3 bg-card border border-border rounded-lg hover:border-accent hover:bg-accent/10 transition-all" title="LinkedIn">
+                  <Linkedin size={24} className="gold-accent" />
+                </a>
+              </div>
             </div>
             <div className="h-96 rounded-lg overflow-hidden">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663673077023/3HDpx7kWg292sNSePJSRYV/footer-about-section-NKCjeKR5CeLVBAwMD8Wt94.webp"
+                src="/manus-storage/about-talal-tarabay_c92814f3.jpg"
                 alt="About Talal Tarabay"
                 className="w-full h-full object-cover"
               />
@@ -420,15 +455,15 @@ export default function Home() {
               <div className="space-y-3 text-sm">
                 <div className="flex items-start gap-2">
                   <Phone size={16} className="gold-accent mt-1 flex-shrink-0" />
-                  <span>+974 7049 9914</span>
+                  <a href="tel:+97450848585" className="hover:text-accent transition-colors">+974 5084 8585</a>
                 </div>
                 <div className="flex items-start gap-2">
                   <MapPin size={16} className="gold-accent mt-1 flex-shrink-0" />
-                  <span>Bin Mahmoud at Al Mufrah Plaza / The Pearl at UDC Tower, Doha</span>
+                  <a href="https://goo.gl/maps/dQcXTYfjzSbZ7zed6?g_st=ac" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Bin Mahmoud at Al Mufrah Plaza / The Pearl at UDC Tower, Doha</a>
                 </div>
                 <div className="flex items-start gap-2">
                   <Mail size={16} className="gold-accent mt-1 flex-shrink-0" />
-                  <span>talal.tarabay@alwabarmotors.qa</span>
+                  <a href="mailto:talal.tarabay@bentleyqatar.com" className="hover:text-accent transition-colors">talal.tarabay@bentleyqatar.com</a>
                 </div>
                 <div className="flex items-start gap-2">
                   <Clock size={16} className="gold-accent mt-1 flex-shrink-0" />
@@ -456,7 +491,7 @@ export default function Home() {
 
           {/* Footer Bottom */}
           <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-            <p>© 2025 Talal Tarabay. All Rights Reserved.</p>
+            <p>© Talal Tarabay. All Rights Reserved. | Built and maintained by <a href="https://www.innvox.in" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Innvox</a></p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-accent transition-colors">Terms & Conditions</a>
